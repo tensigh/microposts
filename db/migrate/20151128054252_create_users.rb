@@ -4,9 +4,6 @@ class CreateUsers < ActiveRecord::Migration
       t.string :name
       t.string :email
       t.string :password_digest
-      t.string :screen_name
-      t.string :phone_number
-      t.string :region
       t.timestamps null: false
       
       t.index :email, unique: true
