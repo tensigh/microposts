@@ -40,6 +40,16 @@
             <%= @user.phone_number %>
           </div>
         </div>
+        <div class="row">
+          <div class="col-sm-4 user-label">
+            Following
+          </div>
+          <div class="col-sm-8">
+            <% @users.each do |user| %>
+            <%= user.name %><br>
+            <% end %> 
+          </div>
+        </div>   
       </div>
     </section>
   </aside>
