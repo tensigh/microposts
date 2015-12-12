@@ -41,15 +41,11 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-4 user-label">
-            Following
-          </div>
-          <div class="col-sm-8">
-            <% @users.each do |user| %>
-            <%= user.name %><br>
-            <% end %> 
-          </div>
-        </div>   
+          <div class="col-sm-12"><%= link_to "Followings (#{@user.following_users.count})", followings_user_path(@user) %></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12"><%= link_to "Followers (#{@user.follower_users.count})", followers_user_path(@user) %></div>
+        </div>
       </div>
     </section>
   </aside>
