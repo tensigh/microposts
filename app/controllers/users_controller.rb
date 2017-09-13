@@ -28,7 +28,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      flash[:success] = "Welcome to the Sample App!"
+      flash[:success] = "Cappuciniaにようこそ！"
       redirect_to @user
     else
       render 'new'
@@ -48,7 +48,7 @@ class UsersController < ApplicationController
   
   def authorized_access!
     if @user != current_user
-      redirect_to root_path, alert: 'Unauthorized access!'
+      redirect_to root_path, alert: '未承認アクセスエラー!'
     end
   end
 
