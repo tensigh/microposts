@@ -1,5 +1,10 @@
 ---
 ja:
+  micropost_created: "投稿の作成ができました。"
+  activerecord:
+    attributes:
+      microposts:
+        success: "作成できました。"
   date:
     abbr_day_names:
     - 日
