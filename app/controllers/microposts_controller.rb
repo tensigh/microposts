@@ -16,7 +16,7 @@ class MicropostsController < ApplicationController
     @micropost = current_user.microposts.find_by(id: params[:id])
     return redirect_to root_url if @micropost.nil?
     @micropost.destroy
-    flash[:success] = "Micropost deleted"
+    flash[:success] = t(:micropost_deleted)
     redirect_to request.referrer || root_url
   end
   

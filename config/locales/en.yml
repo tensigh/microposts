@@ -21,3 +21,4 @@
 
 en:
   hello: "Hello world"
+  logged_in_as: "Logged in as: "

@@ -1,10 +1,12 @@
 ---
 ja:
-  micropost_created: "投稿の作成ができました。"
-  activerecord:
-    attributes:
-      microposts:
-        success: "作成できました。"
+  micropost_created: "投稿の作成ができました"
+  micropost_deleted: "投稿の削除ができました"
+  log_in_please: "ログインして下さい"
+  logged_in_as: "ユーザー名: "
+  login_error: "認証できません。入力された内容が正しくありません。"
+  new_user: "新規ユーザー？"
+  sign_up_now: "簡単登録！"
   date:
     abbr_day_names:
     - 日
