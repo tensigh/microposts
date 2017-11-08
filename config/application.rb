@@ -22,6 +22,7 @@ module Microposts
     # The file is named JP.YML, but the locale is namned JA in the JP.YML file. 
     # This is why it didn't work for several tries. 
     config.i18n.default_locale = :ja
+    # config.i18n.default_locale = :en
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
