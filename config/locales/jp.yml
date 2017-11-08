@@ -1,7 +1,5 @@
 ---
 ja:
-  en: "English"
-  ja: "Japanese"
   micropost_created: "投稿の作成ができました"
   micropost_deleted: "投稿の削除ができました"
   log_in_please: "ログインして下さい"
