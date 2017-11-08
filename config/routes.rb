@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   post   'login' , to: 'sessions#create'
   delete 'logout', to: 'sessions#destroy'
 
+  match 'lang/:locale', to: 'index#change_locale', as: :change_locale, via: [:get]
+
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
   resources :microposts
