@@ -21,3 +21,7 @@
 
 en:
   logged_in_as: "Logged in as: %{user}"
+  new_user: "New User?"
+  sign_up_now: "Sign up now!"
+  posted_time_ago: "Posted %{posted_ago} ago."
+  delete_post: "Delete"

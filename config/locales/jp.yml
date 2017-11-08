@@ -5,8 +5,10 @@ ja:
   log_in_please: "ログインして下さい"
   login_error: "認証できません。入力された内容が正しくありません。"
   new_user: "新規ユーザー？"
-  sign_up_now: "簡単登録！"
+  sign_up_now: "今すぐ簡単登録！"
   logged_in_as: "%{user}としてログインされています。"
+  delete_post: "削除"
+  posted_time_ago: "%{posted_ago} 前に投稿"
   date:
     abbr_day_names:
     - 日
