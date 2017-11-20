@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170916141634) do
+ActiveRecord::Schema.define(version: 20171120082900) do
 
   create_table "microposts", force: :cascade do |t|
     t.integer  "user_id"
@@ -43,6 +43,19 @@ ActiveRecord::Schema.define(version: 20170916141634) do
     t.text     "restComments"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+  end
+
+  create_table "stores", force: :cascade do |t|
+    t.string   "store_name"
+    t.string   "store_address"
+    t.string   "store_phone"
+    t.string   "store_website"
+    t.string   "store_prod_name"
+    t.decimal  "store_prod_price"
+    t.decimal  "store_prod_rating"
+    t.text     "store_comments"
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
   end
 
   create_table "users", force: :cascade do |t|

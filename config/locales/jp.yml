@@ -12,6 +12,7 @@ ja:
   confirm_delete: "本当に削除する？"
   view_my_profile: "プロフィールを見る"
   post: "投稿"
+  compose_new_post: "新規マイクロポストの作成..."
   date:
     abbr_day_names:
     - 日
