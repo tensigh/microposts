@@ -20,9 +20,15 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  micropost_created: "Cappucinia created."
+  micropost_deleted: "Cappucinia deleted."
+  log_in_please: "Please Log in"
+  login_error: "Could not authenticate; please try again"
   logged_in_as: "Logged in as: %{user}"
   new_user: "New User?"
   sign_up_now: "Sign up now!"
   posted_time_ago: "Posted %{posted_ago} ago."
   delete_post: "Delete"
   confirm_delete: "You Sure?"
+  view_my_profile: "view my profile"
+  post: "Post"

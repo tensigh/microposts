@@ -10,6 +10,8 @@ ja:
   delete_post: "削除"
   posted_time_ago: "%{posted_ago} 前に投稿"
   confirm_delete: "本当に削除する？"
+  view_my_profile: "プロフィールを見る"
+  post: "投稿"
   date:
     abbr_day_names:
     - 日
