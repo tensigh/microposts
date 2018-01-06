@@ -3,7 +3,11 @@
   <div class="field">
     <%= f.text_area :content, placeholder: t(:compose_new_post) %>
   </div>
-  <!--- PUT NEW ENTRY FIELDS HERE!!! --->
   <!--- :content is the actual form - there's only one field --->
   <%= f.submit t(:post), class: "btn btn-primary" %>
+  <!--- Trying new form here --->
+<%= form_for(@store) do |f| %>
+  <!--- PUT NEW ENTRY FIELDS HERE!!! --->
+
+
 <% end %>

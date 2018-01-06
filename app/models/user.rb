@@ -10,6 +10,7 @@ class User < ActiveRecord::Base
   validates :phone_number, presence: true, format: { with: /\A\+?\d[-\d\s]+\Z/, message: "Use only digits and dashes for phone number" }, length: {maximum: 20}, on: :update
   has_secure_password
   has_many :microposts
+  has_many :stores
   
   has_many :following_relationships, class_name:  "Relationship",
                                      foreign_key: "follower_id",
