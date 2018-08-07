@@ -14,6 +14,7 @@ ja:
   post: "投稿"
   compose_new_post: "新規マイクロポストの作成..."
   feed_title: "マイクロポースト・フィード"
+  store_name: "店舗名:"
   date:
     abbr_day_names:
     - 日

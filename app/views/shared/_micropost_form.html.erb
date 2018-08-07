@@ -3,8 +3,8 @@
   <div class="field">
     <%= f.text_area :content, placeholder: t(:compose_new_post) %>
   </div>
-  <div class="field">
-    <%= f.text_area :storename %>
+  <%= t(:store_name) %><div class="field">
+    <%= f.text_field :storename %>
   </div>
   
   <!--- :content is the actual form - there's only one field --->
