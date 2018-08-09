@@ -15,6 +15,12 @@ ja:
   compose_new_post: "新規マイクロポストの作成..."
   feed_title: "マイクロポースト・フィード"
   store_name: "店舗名:"
+  store_address: "住所:"
+  store_city: "市区町村:"
+  store_state: "都道府県:"
+  store_zip: "郵便番号:"
+  store_phone: "電話:"
+  store_website: "ホームページ:"
   date:
     abbr_day_names:
     - 日

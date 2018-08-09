@@ -5,6 +5,22 @@
   <div class="field">
     <%= f.text_field :storename %>
   </div>
+  
+  <%= t(:store_address) %>
+  <div class="field">
+    <%= f.text_field :address %>
+  </div>
+  
+  <%= t(:store_city) %>
+  <div class="field">
+    <%= f.text_field :city %>
+  </div>
+  
+  <%= t(:store_state) %>
+  <div class="field">
+    <%= f.text_field :state %>
+  </div>
+
   <div class="field">
     <%= f.text_area :content, placeholder: t(:compose_new_post) %>
   </div>  
