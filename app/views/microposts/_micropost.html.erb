@@ -4,7 +4,8 @@
   <span class="content"><%= micropost.content %></span>
   <span class="content"><%= micropost.storename %></span>
   <span class="content"><%= micropost.address %></span>
-  <span class="content"><%= micropost.city %> <%= micropost.state %></span>
+  <span class="content"><%= micropost.city %> <%= micropost.state %> <%= micropost.zip %></span>
+  <span class="content"><%= micropost.productname %> - <%= micropost.productprice %> Rating: <%= micropost.rating %></span>
   <span class="timestamp">
     <%= t('posted_time_ago', posted_ago: time_ago_in_words(micropost.created_at)) %>
     <% if current_user == micropost.user %>

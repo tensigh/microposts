@@ -22,6 +22,6 @@ class MicropostsController < ApplicationController
   
   private
   def micropost_params
-    params.require(:micropost).permit(:content, :storename, :address, :city, :state, :zip)
+    params.require(:micropost).permit(:content, :storename, :address, :city, :state, :zip, :website, :productname, :productprice, :rating)
   end
 end
