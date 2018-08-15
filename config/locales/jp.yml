@@ -12,8 +12,8 @@ ja:
   confirm_delete: "本当に削除する？"
   view_my_profile: "プロフィールを見る"
   post: "投稿"
-  compose_new_post: "新規マイクロポストの作成..."
-  feed_title: "マイクロポースト・フィード"
+  compose_new_post: "店に対してのコメント..."
+  feed_title: "キャップチニア・フィード"
   store_name: "店舗名:"
   store_address: "住所:"
   store_city: "市区町村:"
@@ -21,6 +21,9 @@ ja:
   store_zip: "郵便番号:"
   store_phone: "電話:"
   store_website: "ホームページ:"
+  store_productname: "飲み物名："
+  store_productprice: "金額："
+  store_rating: "評価："
   date:
     abbr_day_names:
     - 日
