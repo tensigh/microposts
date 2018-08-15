@@ -44,3 +44,8 @@ en:
   store_productname: "Beverage Name:"
   store_productprice: "Price:"
   store_rating: "Rating:"
+  cappucinia_created: 
+    zero: "cappucinia"
+    one: "cappucinia"
+    other: "cappucinium"
+    
