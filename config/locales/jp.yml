@@ -24,6 +24,10 @@ ja:
   store_productname: "飲み物名："
   store_productprice: "金額："
   store_rating: "評価："
+  cappucinia_created: 
+    zero: "カプチーニア"
+    one: "カプチーニア"
+    other: "カプチーニアム"
   date:
     abbr_day_names:
     - 日
