@@ -30,6 +30,9 @@ ja:
     other: "カプチーニアム"
   registered_users: "登録されているユーザー"
   user_form_name: "名前"
+  user_form_pass: "パスワード"
+  user_form_passconf: "パスワードの確認"
+  user_form_email: "メール"
   date:
     abbr_day_names:
     - 日

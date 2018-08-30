@@ -50,3 +50,7 @@ en:
     other: "cappucinium"
   registered_users: "Registered Users"
   user_form_name: "Name"
+  user_form_pass: "Password"
+  user_form_passconf: "Confirm Password"
+  user_form_email: "Email"
+  
