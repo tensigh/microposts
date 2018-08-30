@@ -48,4 +48,5 @@ en:
     zero: "cappucinia"
     one: "cappucinia"
     other: "cappucinium"
-    
+  registered_users: "Registered Users"
+  user_form_name: "Name"

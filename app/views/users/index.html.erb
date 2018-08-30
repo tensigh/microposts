@@ -1,4 +1,4 @@
-<h1>登録されているユーザーたち</h1>
+<h1><%= t(:registered_users) %></h1>
 <ul>
   <% @users.each do |u| %>
     <li><%= link_to u.name, u %>
